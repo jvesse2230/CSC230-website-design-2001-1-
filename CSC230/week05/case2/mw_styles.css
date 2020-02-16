@@ -1,5 +1,5 @@
-﻿@charset "utf-8";
-
+@charset "utf-8";
+mw-002>>>>>>> master
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
@@ -15,9 +15,24 @@
 
 
 /* Structural Styles */
-
-
-
+html{
+   background-color: rgb(173, 189, 227);
+}
+body{
+   background-color: rgb(227,210,173);
+   font-family: 'Century Gothic', sans-serif;
+}
+footer{
+   background-color: rgb(208,184,109);
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+footer>address{
+font: normal, 0.9em;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
 /* Heading Styles */
 
 
