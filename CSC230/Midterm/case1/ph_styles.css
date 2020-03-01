@@ -46,9 +46,29 @@ body > p{
    font-size:1.1em;
    text-align: center;
 }
+address{
+   font-style: normal;
+   font-size: 0.9em;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
 
 /* Navigation Styles */
-
+nav{
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+   background-color: hsla(0,0%,42%,0.4);
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+nav>ul>li a:link, nav>ul>li>a:visited{
+   color: white;
+   background-color: hsla(0,0%,42%,0.4);
+}
+nav>ul>li a:hover, nav>ul>li a:active{
+   color: hsla(0,0%,100%,0.7);
+   background-color:hsl(0,0%,42%,0.7);
+}
 
 
 
