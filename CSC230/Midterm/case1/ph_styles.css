@@ -102,7 +102,15 @@ section#play3 h1{
 section#play4 h1{
    font-family: Dobkin, cursive;
 }
-
-
 /* Description List Styles */
+dt{
+   font-size: 1.3em;
+   font-weight: bold;
+   color: hsla(0,0%,0%,0.4);
+}
+dd{
+   font-size: 1.3em;
+   margin-left: 0px;
+   margin-bottom: 10px;
+}
 
