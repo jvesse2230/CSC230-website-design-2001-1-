@@ -60,9 +60,21 @@ section#rightColumn img{
 section#right>nav.horizontalNavigation li{
    width: 25%;
 }
-
-
-
-
 /* Footer Styles */
-
+footer{
+   background-color: rgb(71,52,29);
+   clear: left;
+}
+footer::after{
+   clear: both;
+   content:"";
+   display: table;
+}
+footer>nav.verticalNavigation {
+   float: left;
+   width: 20%;
+}
+footer> section#contactInfo{
+   float: left;
+   width: 34%;
+}
